@@ -1,0 +1,13 @@
+a{
+  font-size: 16pt;
+  color: var(--color-accent-1);
+}
+a:link{
+  color: var(--color-accent-1);
+}
+a:visited{
+  color: var(--color-accent-1);;
+}
+a:active{
+  color: var(--color-accent-1);;
+}
