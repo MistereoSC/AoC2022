@@ -7,10 +7,10 @@
       <li class="item" @click="$emit('selectIndex',2)" >Day  3:  Rucksack Reorganization</li>
       <li class="item" @click="$emit('selectIndex',3)" >Day  4:  Camp Cleanup</li>
       <li class="item" @click="$emit('selectIndex',4)" >Day  5:  Supply Stacks</li>
-      <li class="item disabled">Day  6:  Tuning Trouble</li>
-      <li class="item disabled">Day  7:  No Space Left On Device</li>
-      <li class="item disabled">Day  8:  Treetop Tree House</li>
-      <li class="item disabled">Day  9:  Rope Bridge</li>
+      <li class="item" @click="$emit('selectIndex',5)" >Day  6:  Tuning Trouble</li>
+      <li class="item" @click="$emit('selectIndex',6)" >Day  7:  No Space Left On Device</li>
+      <li class="item" @click="$emit('selectIndex',7)" >Day  8:  Treetop Tree House</li>
+      <li class="item" @click="$emit('selectIndex',8)" >Day  9:  Rope Bridge</li>
       <li class="item disabled">Day  10: Cathode-Ray Tube</li>
       <li class="item disabled">Day  11: Monkey in the Middle</li>
       <li class="item disabled">Day  12: Hill Climbing Algorithm</li>
@@ -51,6 +51,7 @@ ul{
   list-style-type: none;
   padding: 0px 12px 0px 4px;
   margin: 0px 4px;
+  cursor: default;
 }
 </style>
 

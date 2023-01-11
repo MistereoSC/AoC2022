@@ -10,6 +10,10 @@
       <Day3 v-if="selectedIndex==2"></Day3>
       <Day4 v-if="selectedIndex==3"></Day4>
       <Day5 v-if="selectedIndex==4"></Day5>
+      <Day6 v-if="selectedIndex==5"></Day6>
+      <Day7 v-if="selectedIndex==6"></Day7>
+      <Day8 v-if="selectedIndex==7"></Day8>
+      <Day9 v-if="selectedIndex==8"></Day9>
     </div>
   </div>
 </template>
@@ -34,9 +38,13 @@ import Day2 from "@/components/days/Day2.vue"
 import Day3 from "@/components/days/Day3.vue"
 import Day4 from "@/components/days/Day4.vue"
 import Day5 from "@/components/days/Day5.vue"
+import Day6 from "@/components/days/Day6.vue"
+import Day7 from "@/components/days/Day7.vue"
+import Day8 from "@/components/days/Day8.vue"
+import Day9 from "@/components/days/Day9.vue"
 
 export default {
-  components: {DaySelect, Day1, Day2, Day3, Day4, Day5},
+  components: {DaySelect, Day1, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9},
   data() {
     return {
       selectedIndex: 0
