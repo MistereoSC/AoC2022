@@ -11,7 +11,7 @@
       <li class="item" @click="$emit('selectIndex',6)" >Day  7:  No Space Left On Device</li>
       <li class="item" @click="$emit('selectIndex',7)" >Day  8:  Treetop Tree House</li>
       <li class="item" @click="$emit('selectIndex',8)" >Day  9:  Rope Bridge</li>
-      <li class="item disabled">Day  10: Cathode-Ray Tube</li>
+      <li class="item" @click="$emit('selectIndex',9)" >Day  10: Cathode-Ray Tube</li>
       <li class="item disabled">Day  11: Monkey in the Middle</li>
       <li class="item disabled">Day  12: Hill Climbing Algorithm</li>
       <li class="item disabled">Day  13: Distress Signal</li>

@@ -15,7 +15,7 @@
       <input v-model="outputMessage2" placeholder="Output Q2"/>
     </div>
     <div>
-      <textarea v-model="outputVisual" rows="300" cols="300" placeholder="Input"></textarea>
+      <textarea v-model="outputVisual" rows="300" cols="300" placeholder="Output Visual"></textarea>
     </div>
     
   </div>
