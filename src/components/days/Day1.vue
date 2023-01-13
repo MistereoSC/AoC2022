@@ -10,6 +10,10 @@
       <button @click="calculateOutput">Calculate</button>
       <input v-model="outputMessage" placeholder="Output"/>
     </div>
+    <div>
+      <button @click="calculateOutput">Calculate</button>
+      <input v-model="outputMessage2" placeholder="Output"/>
+    </div>
 
     
   </div>
@@ -24,6 +28,7 @@ export default{
   data(){
     return {
       outputMessage: "",
+      outputMessage2: "",
       inputMessage: ""
     }
   },
@@ -43,7 +48,16 @@ export default{
         intermediateMax[i]=set[i].reduce((acc,c)=>acc+c)
       }
       //Return the largest sum of all sets
-      this.outputMessage=Math.max(...intermediateMax)
+      var p1=0
+      var p2=0
+      var p3=0
+      for(let i=0;i<intermediateMax.length;i++){
+        if(intermediateMax[i]>p1){p3=p2; p2=p1; p1=intermediateMax[i]}
+        else if(intermediateMax[i]>p2){p3=p2; p2=intermediateMax[i]}
+        else if(intermediateMax[i]>p3){p3=intermediateMax[i]}
+      }
+      this.outputMessage=p1
+      this.outputMessage2=p1+p2+p3
     }
   }
 }
