@@ -5,7 +5,7 @@
 These are my solution for the 2022 puzzles, written in JavaScript and bundled as a small webpage.
 The webpage is rudimentary and serves just to collect all my solutions in one place.
 <br><br>
-Puzzles solved currently: 12/25
+Puzzles solved currently: 13/25
 
 
 # Hints

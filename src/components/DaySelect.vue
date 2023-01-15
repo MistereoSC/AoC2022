@@ -14,7 +14,7 @@
       <li class="item" @click="$emit('selectIndex',9)" >Day  10: Cathode-Ray Tube</li>
       <li class="item" @click="$emit('selectIndex',10)">Day  11: Monkey in the Middle</li>
       <li class="item" @click="$emit('selectIndex',11)">Day  12: Hill Climbing Algorithm</li>
-      <li class="item disabled">Day  13: Distress Signal</li>
+      <li class="item" @click="$emit('selectIndex',12)">Day  13: Distress Signal</li>
       <li class="item disabled">Day  14: Regolith Reservoir</li>
       <li class="item disabled">Day  15: Beacon Exclusion Zone</li>
       <li class="item disabled">Day  16: Proboscidea Volcanium</li>
