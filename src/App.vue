@@ -18,6 +18,7 @@
       <Day11 v-if="selectedIndex==10"></Day11>
       <Day12 v-if="selectedIndex==11"></Day12>
       <Day13 v-if="selectedIndex==12"></Day13>
+      <Day14 v-if="selectedIndex==13"></Day14>
     </div>
   </div>
 </template>
@@ -26,11 +27,13 @@
 .select-frame{
   position: fixed;
   top: 0;
+  background: var(--color-background);
+  border-right: 2px solid var(--color-accent-1);
+  height: 100%;
 }
 .day-frame{
-  margin-left: 236px;
+  margin-left: 250px;
   padding-left: 12px;
-  border-left: 2px solid var(--color-accent-1);
   min-height: 95vh;
 }
 </style>
@@ -50,9 +53,10 @@ import Day10 from "@/components/days/Day10.vue"
 import Day11 from "@/components/days/Day11.vue"
 import Day12 from "@/components/days/Day12.vue"
 import Day13 from "@/components/days/Day13.vue"
+import Day14 from "@/components/days/Day14.vue"
 
 export default {
-  components: {DaySelect, Day1, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9, Day10, Day11, Day12, Day13},
+  components: {DaySelect, Day1, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9, Day10, Day11, Day12, Day13, Day14},
   data() {
     return {
       selectedIndex: 0
